@@ -50,7 +50,7 @@ price_difference = yesterday_close - day_before_yesterday_close
 
 percentage_change = (price_difference / day_before_yesterday_close ) * 100
 
-if abs(percentage_change) > 1:
+if abs(percentage_change) > 5:
 
     news_parameters = {
         "apiKey": NEWS_API_KEY,
