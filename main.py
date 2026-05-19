@@ -74,7 +74,7 @@ if abs(percentage_change) > 1:
             description = article.get("description", "No description")
             message_body += (
                 f"Headline: {title}\n"
-                f"Brief: {description}"
+                f"Brief: {description}\n"
             )
 
         message_body = message_body[:1500]
